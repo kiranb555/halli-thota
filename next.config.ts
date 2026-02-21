@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: 'export',
+  basePath: '/halli-thota',
+  assetPrefix: '/halli-thota',
+  trailingSlash: true,
 };
 
 export default nextConfig;
