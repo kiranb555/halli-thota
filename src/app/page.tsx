@@ -18,7 +18,7 @@ function Home() {
         </h1>
         <h1 className="p-20 md:text-5xl text-3xl font-bold text-center text-red-500">ಈ ವೆಬ್‌ಸೈಟ್ ಮಾರಾಟಕ್ಕಿದೆ ಸಂಪರ್ಕಿಸಿ - <span className="text-black">9741621201</span></h1>
         <div className='flex justify-center'>
-          <Image src="/halli-thota.png" alt="halli-thota" width={500} height={500} className='align-center'/>
+          <Image src="/halli-thota.png" alt="halli-thota" width={500} height={500} className='align-center' unoptimized/>
         </div>
       </main>
   );
