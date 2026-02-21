@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   basePath: '/halli-thota',
   assetPrefix: '/halli-thota',
   trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
