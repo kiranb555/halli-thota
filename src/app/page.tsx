@@ -13,10 +13,10 @@ function Home() {
           ))} 
         </div>
         <h1 className="md:text-9xl text-5xl font-bold text-center mt-10">
-          <span  className="text-pink-500 pr-3 animate-pulse">Halli</span>
-          <span className="text-green-500 animate-pulse">Thota</span>
+          <span  className="text-pink-500 pr-3">Halli</span>
+          <span className="text-green-500">Thota</span>
         </h1>
-        <h1 className="p-20 md:text-5xl text-3xl font-bold text-center text-red-500">ಈ ವೆಬ್‌ಸೈಟ್ ಮಾರಾಟಕ್ಕಿದೆ ಸಂಪರ್ಕಿಸಿ - <span className="text-black">9741621201</span></h1>
+        <h1 className="md:p-20 p-5 md:text-5xl text-3xl font-bold text-center text-red-500">ಈ ವೆಬ್‌ಸೈಟ್ ಮಾರಾಟಕ್ಕಿದೆ ಸಂಪರ್ಕಿಸಿ - <span className="text-black">9741621201</span></h1>
         <div className='flex justify-center'>
           <Image src="/halli-thota.png" alt="halli-thota" width={500} height={500} className='align-center' unoptimized/>
         </div>
