@@ -4,7 +4,7 @@ import { Fragment } from 'react/jsx-runtime';
 function Home() {
   return (
       <main className="mt-5 mb-5 mx-5">
-        <div className="marquee w-full">
+        <div className="w-full">
           <span className="text-red-500 pr-3 animate-ping pl-5">Sale</span>
           <span className="text-green-500 animate-pulse">ಈ ವೆಬ್‌ಸೈಟ್ ಮಾರಾಟಕ್ಕಿದೆ ಸಂಪರ್ಕಿಸಿ - <span className="text-black animate-pulse">9741621201</span></span>
         </div>
