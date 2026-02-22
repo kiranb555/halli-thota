@@ -4,10 +4,10 @@ import { Fragment } from 'react/jsx-runtime';
 function Home() {
   return (
       <main className="mt-5 mb-5 mx-5">
-            <marquee>
-              <span className="text-red-500 pr-3 animate-ping pl-5">Sale</span>
-              <span className="text-green-500 animate-pulse">ಈ ವೆಬ್‌ಸೈಟ್ ಮಾರಾಟಕ್ಕಿದೆ ಸಂಪರ್ಕಿಸಿ - <span className="text-black animate-pulse">9741621201</span></span>
-            </marquee>
+        <div className="marquee w-full">
+          <span className="text-red-500 pr-3 animate-ping pl-5">Sale</span>
+          <span className="text-green-500 animate-pulse">ಈ ವೆಬ್‌ಸೈಟ್ ಮಾರಾಟಕ್ಕಿದೆ ಸಂಪರ್ಕಿಸಿ - <span className="text-black animate-pulse">9741621201</span></span>
+        </div>
         <h1 className="md:text-9xl text-5xl font-bold text-center mt-10">
           <span  className="text-pink-500 pr-3">Halli</span>
           <span className="text-green-500">Thota</span>
